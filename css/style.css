@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px; }
+
+header .navbar-light .navbar-nav li .nav-link, .banner .row .banner-text a:after, .banner .row .animation, .gellery-section .gellery:after, .gellery-section .gellery ul, footer .footer-content .footer-social ul li a {
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+/*******header*****/
+header {
+  background-color: #f9f6f6;
+  padding: 18px 0; }
+  header .navbar-light .navbar-nav li .active {
+    color: #15A4FA !important; }
+  header .navbar-light .navbar-nav li .nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2d3950;
+    text-transform: uppercase;
+    padding: 0 15px; }
+    header .navbar-light .navbar-nav li .nav-link:hover, header .navbar-light .navbar-nav li .nav-linkfocus {
+      color: #15A4FA;
+      font-style: italic; }
+
+/******banner area*****/
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .banner .row {
+    height: 800px;
+    align-items: center; }
+    .banner .row .banner-text {
+      color: #fff; }
+      .banner .row .banner-text h1 {
+        font-size: 120px;
+        font-weight: 700; }
+      .banner .row .banner-text span {
+        display: block;
+        border: 2px solid #15A4FA;
+        width: 0px;
+        margin: 0 auto;
+        animation-name: span;
+        animation-duration: 4s;
+        animation-iteration-count: infinite; }
+@keyframes span {
+  0% {
+    width: 0px; }
+  100% {
+    width: 600px; } }
+      .banner .row .banner-text h5 {
+        margin: 35px 0 60px;
+        font-size: 20px;
+        font-weight: 400; }
+      .banner .row .banner-text a {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border: 1px solid #15A4FA;
+        padding: 12px 14px;
+        position: relative;
+        z-index: 1; }
+        .banner .row .banner-text a:after {
+          position: absolute;
+          content: "";
+          height: 100%;
+          width: 0%;
+          background-color: #15A4FA;
+          top: 0;
+          left: 0;
+          z-index: -1; }
+        .banner .row .banner-text a:hover:after {
+          width: 100%; }
+    .banner .row .animation {
+      font-size: 35px;
+      color: #fff;
+      transform: translateY(70%);
+      animation-name: arrow;
+      animation-duration: 4s;
+      animation-iteration-count: infinite; }
+@keyframes arrow {
+  0% {
+    transform: translateY(70%); }
+  100% {
+    transform: translateY(170%); } }
+/*****similar area*****/
+.similar-area {
+  background-color: #f9f6f6;
+  padding: 60px 0; }
+  .similar-area .similar h2 {
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400; }
+  .similar-area .similar p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    margin: 20px; }
+
+/*************service**************/
+.service-section {
+  padding: 70px 0 60px; }
+  .service-section .service {
+    text-align: center; }
+    .service-section .service i {
+      display: block;
+      font-size: 50px;
+      color: #fff;
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      line-height: 100px;
+      text-align: center;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+      background: #48baff;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 );
+      /* IE6-9 */ }
+    .service-section .service h3 {
+      font-size: 22px;
+      font-weight: 400;
+      color: #2d3950;
+      padding: 18px 0 10px; }
+    .service-section .service p {
+      font-size: 15px;
+      font-weight: 400;
+      color: #999999; }
+
+/**********gellery section******/
+.gellery-section {
+  background-color: #f9f6f6;
+  padding: 70px 0 110px; }
+  .gellery-section .similar {
+    padding-bottom: 70px; }
+  .gellery-section .gellery {
+    position: relative;
+    margin-bottom: 20px; }
+    .gellery-section .gellery img {
+      border-radius: 3px; }
+    .gellery-section .gellery:after {
+      position: absolute;
+      content: "";
+      height: 0%;
+      width: 100%;
+      background-color: #15a4fab3;
+      bottom: 0;
+      right: 0;
+      border-radius: 3px; }
+    .gellery-section .gellery:hover:after {
+      height: 100%; }
+    .gellery-section .gellery ul {
+      position: absolute;
+      bottom: 30%;
+      right: 50%;
+      transform: translate(50%, 50%);
+      z-index: 1;
+      transition-delay: .2s;
+      opacity: 0; }
+      .gellery-section .gellery ul li {
+        margin-right: 10px; }
+        .gellery-section .gellery ul li a {
+          display: inline-block;
+          height: 45px;
+          width: 45px;
+          line-height: 45px;
+          text-align: center;
+          border: 1px solid #fff;
+          color: #fff;
+          border-radius: 3px;
+          font-size: 15px; }
+    .gellery-section .gellery:hover ul {
+      bottom: 50%;
+      opacity: 1; }
+
+/*****contact area*********/
+.contact-area {
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 70px 0 110px;
+  z-index: 1; }
+  .contact-area:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #2b364be3;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+  .contact-area .similar {
+    padding-bottom: 40px; }
+  .contact-area .form-control {
+    background-color: transparent;
+    margin: 10px 0;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    border: 1px solid #ced4da96 !important; }
+  .contact-area .form-control[type="submit"] {
+    background: transparent;
+    padding: 10px 45px !important;
+    border: 1px solid #15A4FA !important; }
+  .contact-area label {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px; }
+
+/******footer******/
+footer {
+  background-color: #f6f9f9;
+  padding: 25px 0; }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between; }
+    footer .footer-content .footer-text p {
+      font-size: 15px;
+      font-weight: 400;
+      color: #999999; }
+    footer .footer-content .footer-social ul li a {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      background-color: #15A4FA;
+      border-radius: 2px;
+      margin-right: 8px;
+      border: 1px solid #15A4F4; }
+      footer .footer-content .footer-social ul li a:hover {
+        background-color: #fff;
+        color: #15A4F4; }
+
+/*# sourceMappingURL=style.css.map */

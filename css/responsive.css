@@ -1,0 +1,340 @@
+
+
+
+/****** Extra small devices (portrait phones, less than 576px)******/
+@media (max-width: 575.98px) { 
+ /*header area here */
+		 header {
+	     padding: 0;
+		 }
+		 .navbar-brand img{
+			width:100px;
+		 }
+/*header area here */
+
+/*bannere area here*/
+		.banner .row {
+	        height: 300px;
+		}
+		.banner .row .banner-text h1 {
+	    font-size: 30px;
+		}
+		.banner .row .banner-text h5 {
+	            margin: 12px 0 18px;
+	    	font-size: 15px;
+	    	line-height: 1.8rem;
+		}
+		.banner .row .banner-text span {
+	    width: 250px;
+		}
+		.banner .row .banner-text a {
+	    font-size: 12px;
+	    padding: 6px 6px;
+		}
+		.banner .row .animation i {
+	 	font-size:25px;
+	    transform: translateY(10px);
+		}
+		@keyframes kaynat{
+					0%{
+						transform:translateY(10px);
+					}
+					100%{
+						transform:translateY(50px);
+					}
+				}
+	   
+/*bannere area here*/
+
+/*similar area here*/
+		.similar-area .similar h2 {
+	    font-size: 25px;
+		}
+		.similar-area .similar p{
+			font-size:13px
+		}
+/*similar area here*/
+
+/*service area here*/
+		.service-area {
+	    padding: 38px 0 40px;
+		}
+		.service-area .service {
+	   		margin-bottom: 45px;
+		}
+/*service area here*/
+
+/*gallery area here*/
+		.gallery-area {
+	   padding: 40px 0 20px;
+		}
+		.gallery-area .similar {
+	    padding-bottom: 20px;
+		}
+		.gallery-area .similar h2{
+			font-size:19px;
+		}
+		.gallery-area .similar p{
+			font-size:14px;
+		}
+		.gallery-area .gallery ul li {
+	    margin-right: 5px;
+		}
+		.gallery-area .gallery ul li a {
+	    height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	    font-size: 14px;
+		}
+/*gallery area here*/
+
+/*contact area here*/
+		.contact-area{
+			padding:30px 0;
+		}
+		.contact-area label {
+	    font-size: 12px;
+	    margin-left: 5px;
+		}
+		.contact-area .form-control[type="submit"] {
+	    padding: 7px 30px !important;
+		}
+/*contact area here*/
+
+/*footer area here*/
+		footer {
+	    background-color: #f6f9f9;
+	    padding: 10px 0;
+		}
+		footer .footer-content .footer-text p {
+	    font-size: 13px;
+	   
+		}
+	 footer .footer-content .footer-social ul li a {
+	    height: 25px;
+	    width: 25px;
+	    line-height: 25px;
+	    font-size:14px;
+	    margin-right:1px;
+		}
+
+/*footer area here*/
+
+
+ }
+
+/******Small devices (landscape phones, 576px and up)******/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header area here */
+		header {
+	    padding: 7px 0;
+		}
+		.navbar-brand img{
+			width:130px;
+		}
+/*header area here */
+
+/*bannere area here*/
+		.banner .row {
+	        height: 450px;
+		}
+		.banner .row .banner-text h1 {
+	    font-size: 50px;
+		}
+		.banner .row .banner-text h5 {
+	        margin: 25px 0 30px;
+	    	font-size: 16px;
+		}
+		.banner .row .banner-text span {
+	    width: 300px;
+		}
+		.banner .row .banner-text a {
+	    font-size: 14px;
+	    padding: 10px 10px;
+		}
+		.banner .row .animation i {
+	 	font-size:25px;
+	    transform: translateY(30px);
+		}
+		@keyframes kaynat{
+					0%{
+						transform:translateY(30px);
+					}
+					100%{
+						transform:translateY(90px);
+					}
+				}
+   
+/*bannere area here*/
+
+/*similar area here*/
+		.service-area .service {
+	   		margin-bottom: 45px;
+		}
+		.similar-area .similar h2 {
+	    font-size: 30px;
+		}
+		.similar-area .similar p{
+			font-size:15px
+		}
+/*similar area here*/
+/*service area here*/
+		.service-area .service h3 {
+	    font-size: 17px;
+	    padding: 18px 0 5px;
+		}
+		.service-area .service p {
+	    font-size: 14px;
+		}
+		.service-area .service i {
+	    font-size: 35px;
+	    height: 80px;
+	    width: 80px;
+	    line-height: 80px;
+		}
+/*service area here*/
+
+/*gallery area here*/
+		.gallery-area {
+	    padding: 40px 0 60px;
+		}
+		.gallery-area .similar {
+	    padding-bottom: 20px;
+		}
+		.gallery-area .gallery ul li {
+	    margin-right: 5px;
+		}
+		.gallery-area .gallery ul li a {
+	    height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	    font-size: 14px;
+		}
+/*gallery area here*/
+
+/*footer area here*/
+		footer {
+	    padding: 10px 0;
+		}
+
+	 footer .footer-content .footer-social ul li a {
+	    height: 25px;
+	    width: 25px;
+	    line-height: 25px;
+	    font-size:14px;
+		}
+
+/*footer area here*/
+
+}
+
+//******/ Medium devices (tablets, 768px and up)******/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header area here */
+	header {
+    padding: 7px 0;
+	}
+/*header area here */
+
+/*bannere area here*/
+		.banner .row {
+	    height: 600px;
+		}
+		.banner .row .banner-text h1 {
+	    font-size: 70px;
+		}
+		.banner .row .banner-text h5 {
+	    margin: 30px 0 40px;
+	    font-size: 18px;
+		}
+		.banner .row .banner-text span {
+	    width: 400px;
+		}
+		.banner .row .banner-text a {
+	    font-size: 14px;
+	    padding: 10px 10px;
+		}
+		.banner .row .animation i {
+	    font-size: 25px;
+		}
+   
+/*bannere area here*/
+/*similar area here*/
+		.similar-area .similar h2 {
+	    font-size: 30px;
+		}
+		.similar-area .similar p{
+			font-size:15px
+		}
+/*similar area here*/
+
+/*service area here*/
+		.service-area .service h3 {
+	    font-size: 17px;
+	    padding: 18px 0 5px;
+		}
+		.service-area .service p {
+	    font-size: 14px;
+		}
+		.service-area .service i {
+	    font-size: 35px;
+	    height: 80px;
+	    width: 80px;
+	    line-height: 80px;
+		}
+/*service area here*/
+
+/*gallery area here*/
+		.gallery-area {
+	    padding: 40px 0 60px;
+		}
+		.gallery-area .gallery ul li {
+	    margin-right: 5px;
+		}
+		.gallery-area .gallery ul li a {
+	    height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	    font-size: 14px;
+		}
+/*gallery area here*/
+
+
+
+ }
+
+/******Large devices (desktops, 992px and up)******/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*bannere area here*/
+		.banner .row {
+	    height: 700px;
+		}
+		.banner .row .banner-text h1 {
+	    font-size: 95px;
+		}
+		.banner .row .banner-text span {
+	    width: 500px;
+		}
+/*bannere area here*/
+
+/*similar area here*/
+		.similar-area .similar h2 {
+	    font-size: 36px;
+		}
+		.similar-area .similar p{
+			font-size:16px
+		}
+/*similar area here*/
+
+
+ }
+
+/******Extra large devices (large desktops, 1200px and up)******/
+@media (min-width: 1200px) { 
+
+
+
+}
